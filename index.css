@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Happy Monkey', cursive;;
 
 }
 /* *,html{
@@ -16,6 +17,11 @@ body {
     flex-direction: column;
     place-items: center;
     color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .conversion-screen{
@@ -26,6 +32,11 @@ body {
     background: #2e94b9;
     padding:15px 25px;
     box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .conversion-heading{
     margin-bottom: 0;
@@ -45,7 +56,9 @@ body {
     box-sizing: border-box;
     color:white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 30px;
+    text-align: center;
+
     
 }
 
@@ -70,12 +83,13 @@ body {
     place-items: center;
     word-wrap:break-word;
     margin:10px 20px;
+
 }
 .result-containers{
     background-color: white;
     color: #2e94b9;
     font-weight: 600;
-    padding: 5px 20px;
+    padding: 20px;
     text-align: center;
     white-space: nowrap;
     margin: 10px;
